@@ -1,0 +1,24 @@
+{
+  "name": "documenso-sharp",
+  "version": "1.0.0",
+  "description": "dev repo for documenso nix packaging",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mipmip/documenso-sharp.git"
+  },
+  "keywords": [
+    "documenso",
+    "nix",
+    "sharp"
+  ],
+  "author": "Pim Snel",
+  "license": "MIT",
+  "homepage": "https://github.com/mipmip/documenso-sharp#readme",
+  "dependencies": {
+    "sharp": "^0.34.4"
+  }
+}
