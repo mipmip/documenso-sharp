@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "dev repo for documenso nix packaging",
   "main": "index.js",
+  "bin": {
+    "jpg2png": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +22,7 @@
   "license": "MIT",
   "homepage": "https://github.com/mipmip/documenso-sharp#readme",
   "dependencies": {
+    "commander": "^12.0.0",
     "sharp": "^0.34.4"
   }
 }
